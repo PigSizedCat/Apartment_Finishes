@@ -22,11 +22,11 @@ export default function NeutralsPage() {
 
       {/* HEADER */}
       <header className="flex items-center justify-between px-8 py-6">
-        <link 
+        <Link 
         href="/"
         className="text-2xl font-bold tracking-widest">
           APARTMENT FINISHES
-        </link>
+        </Link>
 
         <nav className="flex gap-8 text-sm">
           <a href="#styles">Styles</a>
