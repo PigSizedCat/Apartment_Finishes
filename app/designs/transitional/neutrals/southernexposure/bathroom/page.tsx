@@ -21,7 +21,7 @@ export default function FinishDetailsKitchenPage() {
       </header>
 
       {/* PAGE TITLE */}
-      <section className="px-8 pb-6 pt-6 text-center">
+      <section className="px-8 pb-10 pt-12 text-center">
         <p className="mb-4 text-sm uppercase tracking-[0.3em] text-stone-500">
           Transitional / Neutrals / Southern Exposure
         </p>
@@ -32,7 +32,11 @@ export default function FinishDetailsKitchenPage() {
       </section>
 
       {/* DETAILS LAYOUT */}
+<<<<<<< HEAD
       <section className="mx-auto max-h-[70vh] max-w-7xl px-8 pb-6">
+=======
+      <section className="mx-auto max-w-7xl px-8 pb-24">
+>>>>>>> parent of b89d0f2 (Update 1)
         <div className="grid gap-8 lg:grid-cols-2">
 
           {/* LEFT IMAGE */}
