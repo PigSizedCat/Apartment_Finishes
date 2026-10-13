@@ -54,7 +54,7 @@ export default function Home() {
 
   {/* TOP HERO HEADING */}
 <div className="absolute inset-x-0 top-0 flex justify-center px-8 pt-8 text-center text-white">
-  <h2 className="text-6xl font-semibold tracking-tight md:text-5xl">
+  <h2 className="text-8xl font-semibold tracking-tight md:text-6xl">
     A NEW ERA IN MULTIFAMILY DESIGN
   </h2>
 </div>
