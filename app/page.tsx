@@ -52,37 +52,34 @@ export default function Home() {
   {/* DARK OVERLAY */}
   <div className="absolute inset-0 bg-black/30" />
 
-  {/* HERO TEXT */}
-  <div className="absolute inset-0 flex items-end justify-center px-8 text-center text-white">
-    <div className="max-w-6xl">
+  {/* TOP HERO HEADING */}
+<div className="absolute inset-x-0 top-0 flex justify-center px-8 pt-8 text-center text-white">
+  <h2 className="text-3xl font-semibold tracking-tight md:text-5xl">
+    A NEW ERA IN MULTIFAMILY DESIGN
+  </h2>
+</div>
 
-      <h1 className="text-6xl font-semilight tracking-tight md:text-6xl">
-        6 Steps | Stylish Results | Completely <b>Free</b>
-      </h1>
+{/* HERO TEXT */}
+<div className="absolute inset-0 flex items-end justify-center px-8 text-center text-white">
+  <div className="max-w-6xl">
+    <h1 className="text-6xl font-light tracking-tight md:text-6xl">
+      6 Steps | Stylish Results | Completely <b>Free</b>
+    </h1>
 
-      <p className="mx-auto mt-2 max-w-6xl text-medium">
-        Explore curated apartment designs and find the
-        products and vendors behind every finish for <b>free</b>.
-      </p>
+    <p className="mx-auto mt-2 max-w-6xl text-medium">
+      Explore curated apartment designs and find the
+      products and vendors behind every finish for <b>free</b>.
+    </p>
 
-      <a
-        href="/designs"
-        className="mt-2 mb-4 inline-block bg-black px-7 py-4 text-xl font-medium text-white transition hover:bg-stone-700"
-      >
-        Explore Design Options
-      </a>
-
-    </div>
+    <a
+      href="/designs"
+      className="mt-2 mb-4 inline-block bg-black px-7 py-4 text-xl font-medium text-white transition hover:bg-stone-700"
+    >
+      Explore Design Options
+    </a>
   </div>
+</div>
 
-</section>
-
-<section className="bg-white px-8 py-16">
-  <div className="mx-auto max-w-6xl text-center">
-    <h2 className="text-3xl font-bold tracking-tight text-stone-900 md:text-5xl">
-      A NEW ERA IN MULTIFAMILY DESIGN
-    </h2>
-  </div>
 </section>
 
 {/* FLEXIBLE CENTERED IMAGE */}
