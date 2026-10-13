@@ -32,7 +32,7 @@ export default function FinishDetailsKitchenPage() {
       </section>
 
       {/* DETAILS LAYOUT */}
-      <section className="mx-auto max-w-7xl px-8 pb-6">
+      <section className="mx-auto max-h-[70vh] max-w-7xl px-8 pb-6">
         <div className="grid gap-8 lg:grid-cols-2">
 
           {/* LEFT IMAGE */}
