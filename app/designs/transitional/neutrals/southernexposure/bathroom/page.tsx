@@ -8,9 +8,11 @@ export default function FinishDetailsKitchenPage() {
 
       {/* HEADER */}
       <header className="flex items-center justify-between px-8 py-6">
-        <div className="text-2xl font-bold tracking-widest">
+        <link 
+        href="/"
+        className="text-2xl font-bold tracking-widest">
           APARTMENT FINISHES
-        </div>
+        </link>
 
         <nav className="flex gap-8 text-sm">
           <a href="#styles">Styles</a>
@@ -32,11 +34,7 @@ export default function FinishDetailsKitchenPage() {
       </section>
 
       {/* DETAILS LAYOUT */}
-<<<<<<< HEAD
-      <section className="mx-auto max-h-[70vh] max-w-7xl px-8 pb-6">
-=======
       <section className="mx-auto max-w-7xl px-8 pb-24">
->>>>>>> parent of b89d0f2 (Update 1)
         <div className="grid gap-8 lg:grid-cols-2">
 
           {/* LEFT IMAGE */}

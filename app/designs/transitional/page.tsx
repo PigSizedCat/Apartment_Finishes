@@ -29,9 +29,11 @@ export default function TransitionalPage() {
 
       {/* HEADER */}
       <header className="flex items-center justify-between px-8 py-6">
-        <div className="text-2xl font-bold tracking-widest">
+        <link 
+        href="/"
+        className="text-2xl font-bold tracking-widest">
           APARTMENT FINISHES
-        </div>
+        </link>
 
         <nav className="flex gap-8 text-sm">
           <a href="#styles">Styles</a>

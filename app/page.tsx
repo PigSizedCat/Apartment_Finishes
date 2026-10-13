@@ -6,9 +6,11 @@ export default function Home() {
 
       {/* HEADER */}
       <header className="flex items-center justify-between px-8 py-6">
-        <div className="text-2xl font-bold tracking-widest">
+        <link 
+        href="/"
+        className="text-2xl font-bold tracking-widest">
           APARTMENT FINISHES
-        </div>
+        </link>
 
         <nav className="flex gap-8 text-sm">
           <a href="#styles">Styles</a>
@@ -74,6 +76,15 @@ export default function Home() {
   </div>
 
 </section>
+
+<section className="bg-white px-8 py-16">
+  <div className="mx-auto max-w-6xl text-center">
+    <h2 className="text-3xl font-bold tracking-tight text-stone-900 md:text-5xl">
+      A NEW ERA IN MULTIFAMILY DESIGN
+    </h2>
+  </div>
+</section>
+
 {/* FLEXIBLE CENTERED IMAGE */}
 <section className="bg-white px-8 py-0">
   <div className="mx-auto flex max-w-4xl max-h-2xl justify-center">
